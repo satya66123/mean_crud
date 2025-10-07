@@ -1,0 +1,6 @@
+const routes: Routes = [
+  { path: '', redirectTo: 'books', pathMatch: 'full' },
+  { path: 'books', component: BookListComponent },
+  { path: 'add-book', component: BookFormComponent },
+  { path: 'edit-book/:id', component: BookFormComponent }
+];

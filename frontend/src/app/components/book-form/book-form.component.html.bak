@@ -1,0 +1,26 @@
+<div>
+  <h2>{{ isEdit ? 'Edit Book' : 'Add Book' }}</h2>
+  <form #bookForm="ngForm" (ngSubmit)="onSubmit()">
+
+    <div>
+      <label>Title:</label><br>
+      <input type="text" name="title" [(ngModel)]="book.title" required>
+    </div>
+
+    <div>
+      <label>Author:</label><br>
+      <input type="text" name="author" [(ngModel)]="book.author" required>
+    </div>
+
+    <div>
+      <label>Year:</label><br>
+      <input type="number" name="year" [(ngModel)]="book.year" required>
+    </div>
+
+    <div style="margin-top: 10px;">
+      <button type="submit" [disabled]="bookForm.invalid">
+        {{ isEdit ? 'Update' : 'Create' }}
+      </button>
+    </div>
+  </form>
+</div>
