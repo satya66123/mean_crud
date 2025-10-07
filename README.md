@@ -1,6 +1,6 @@
-# Angular Frontend Application
+# MEAN App
 
-This is a basic Angular frontend project set up with Angular CLI, including standard configurations for building and serving the app.
+This is a basic mean app project set up with Angular CLI, including standard configurations for building and serving the app.
 
 ## Project Structure
 
