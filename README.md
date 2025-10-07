@@ -211,23 +211,6 @@ Uses Angular forms and HTTPClient for REST API interaction.
 
 Includes routing and component modularization.
 
-Testing
-Backend tests (if implemented) can be run with your preferred test runner.
-
-Frontend unit tests run via Karma:
-
-bash
-Copy code
-ng test
-Troubleshooting
-Ensure MongoDB is running and connection string is correct.
-
-If Angular build errors occur related to missing packages, run:
-
-bash
-Copy code
-npm install --save-dev @angular-devkit/build-angular
-Make sure Angular CLI version matches Angular dependencies.
 
 License
 This project is licensed under the MIT License.
