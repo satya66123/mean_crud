@@ -211,7 +211,7 @@ Uses Angular forms and HTTPClient for REST API interaction.
 
 Includes routing and component modularization.
 
-
+developed by srinath
 License
 This project is licensed under the MIT License.
 
